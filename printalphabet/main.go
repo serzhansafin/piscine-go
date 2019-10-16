@@ -10,3 +10,4 @@ import "github.com/01-edu/z01"
      }
      z01.PrintRune('\n')
  }
+
