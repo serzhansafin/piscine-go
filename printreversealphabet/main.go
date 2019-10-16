@@ -9,6 +9,6 @@ func main() {
 
 	}
 
-	z01.PrintRune('10')
+	z01.PrintRune(10)
 
 }
