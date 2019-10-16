@@ -1,2 +1,1 @@
-
-ls -c -m --indicator-style=slash | tr -d '.'
+ls -c -m -p | tr -d '.' | tr -d '..'
