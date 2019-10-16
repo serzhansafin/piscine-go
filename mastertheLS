@@ -1,2 +1,2 @@
 
-ls -c -m --indicator-slash | tr '\n' ','
+ls -c -m | tr '\n' '/'
