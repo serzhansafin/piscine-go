@@ -27,4 +27,3 @@ func main() {
 	fmt.Println(IterativePower(arg1, arg2))
 }
 */
-
