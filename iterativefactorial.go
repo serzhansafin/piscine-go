@@ -8,19 +8,24 @@ import (
 
 func IterativeFactorial(nb int) int {
 
-	result := 1
+	if nb < 18 {
+		result := 1
 
-	for i := 1; i <= nb; i++ {
+		for i := 1; i <= nb; i++ {
 
-		result *= i
+			result *= i
 
+		}
+		return result
 	}
-	return result
+	return 0
+
 }
 
 /*
 func main() {
-	arg := -6
+	arg := 17
 	fmt.Println(IterativeFactorial(arg))
 }
+
 */
