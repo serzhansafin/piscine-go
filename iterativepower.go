@@ -1,14 +1,14 @@
-package piscine
+package main
 
-/*
+
 import (
 	"fmt"
 )
-*/
+
 
 func IterativePower(nb int, power int) int {
 
-	if nb < 18 && nb >= 0 && power >= 0 {
+	if nb < 18 && power >= 0 {
 		result := 1
 		for i := 1; i <= power; i++ {
 			result *= nb
@@ -20,10 +20,10 @@ func IterativePower(nb int, power int) int {
 
 }
 
-/*
+
 func main() {
-	arg1 := 1
+	arg1 := -3
 	arg2 := 3
 	fmt.Println(IterativePower(arg1, arg2))
 }
-*/
+
