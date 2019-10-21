@@ -8,7 +8,7 @@ import (
 
 func IterativeFactorial(nb int) int {
 
-	if nb < 18 {
+	if nb < 18 && nb > 0 {
 		result := 1
 
 		for i := 1; i <= nb; i++ {
@@ -18,14 +18,14 @@ func IterativeFactorial(nb int) int {
 		}
 		return result
 	}
+
 	return 0
 
 }
 
 /*
 func main() {
-	arg := 17
+	arg := -4738
 	fmt.Println(IterativeFactorial(arg))
 }
-
 */
