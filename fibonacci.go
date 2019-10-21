@@ -13,8 +13,8 @@ func Fibonacci(index int) int {
 	if index > 2 && index < 25 {
 		return Fibonacci(index-2) + Fibonacci(index-1)
 	}
-	if index < 0 && index > -20 {
-		return Fibonacci(index+2) - Fibonacci(index+1)
+	if index < 0 {
+		return -1
 	}
 
 	return 0
@@ -22,8 +22,7 @@ func Fibonacci(index int) int {
 
 /*
 func main() {
-	arg1 := -8
+	arg1 := -5
 	fmt.Println(Fibonacci(arg1))
 }
-
 */
