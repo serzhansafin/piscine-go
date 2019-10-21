@@ -10,7 +10,7 @@ func Fibonacci(index int) int {
 	if index == 1 || index == 2 {
 		return 1
 	}
-	if index > 2 && index < 20 {
+	if index > 2 && index < 25 {
 		return Fibonacci(index-2) + Fibonacci(index-1)
 	}
 	if index < 0 && index > -20 {
