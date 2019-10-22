@@ -19,7 +19,7 @@ func Index(s string, toFind string) int {
 			ok := true
 			num := 0
 			for j := 0; j < ln2; j++ {
-				if i+num >= ln || t[j] != s[i+num] {
+				if i+num >= ln || toFind[j] != s[i+num] {
 					ok = false
 					break
 				}
@@ -30,7 +30,7 @@ func Index(s string, toFind string) int {
 			}
 		}
 	}
-	if t == "" {
+	if toFind == "" {
 		return 0
 	}
 	return -1
