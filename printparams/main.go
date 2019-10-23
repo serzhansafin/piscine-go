@@ -9,7 +9,7 @@ func main() {
 	params := os.Args
 	length := 0
 
-	for index, _ := range params {
+	for index := range params {
 		length = index
 	}
 
