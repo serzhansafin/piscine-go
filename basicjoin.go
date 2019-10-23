@@ -1,8 +1,4 @@
-package main
-
-import (
-	"fmt"
-)
+package piscine
 
 func BasicJoin(strs []string) string {
 
@@ -11,9 +7,4 @@ func BasicJoin(strs []string) string {
 		r += w
 	}
 	return r
-}
-
-func main() {
-	toConcat := []string{"Hello!", " How", " are", " you?"}
-	fmt.Println(BasicJoin(toConcat))
 }
