@@ -1,9 +1,10 @@
-package main
+package piscine
 
+/*
 import (
 	"fmt"
 )
-
+*/
 func ConcatParams(args []string) string {
 
 	var index int
@@ -26,7 +27,9 @@ func ConcatParams(args []string) string {
 	return res
 }
 
+/*
 func main() {
 	test := []string{"Hello", "how", "are", "you?"}
 	fmt.Println(ConcatParams(test))
 }
+*/
