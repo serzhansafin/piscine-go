@@ -65,7 +65,9 @@ func SplitWhiteSpaces(str string) []string {
 	return array
 }
 
+/*
 func main() {
 	str := "Hello how are you?"
 	fmt.Println(SplitWhiteSpaces(str))
 }
+*/
