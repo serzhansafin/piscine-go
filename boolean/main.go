@@ -1,9 +1,6 @@
 package piscine
 
-import (
-	"fmt"
-	"github.com/01-edu/z01"
-)
+import "github.com/01-edu/z01"
 
 func printStr(str string) {
 	arrayStr := []rune(str)
