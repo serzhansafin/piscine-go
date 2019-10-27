@@ -5,7 +5,13 @@ import "github.com/01-edu/z01"
 func printStr(str string) {
 	arrayStr := []rune(str)
 
-	for i := 0; i < len(arrayStr); i++ {
+	lengthOfStr := 0
+
+	for ind := range arrayStr {
+		lengthOfStr = ind
+	}
+
+	for i := 0; i < lengthOfStr; i++ {
 
 		z01.PrintRune(string(arrayStr[i]))
 
