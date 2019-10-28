@@ -5,6 +5,22 @@ import (
 	"os"
 )
 
+func main() {
+
+	lengthOfArg := 0
+
+	sentence := os.Args
+	for index := range sentence {
+		lengthOfArg = index
+	}
+
+	if isEven(lengthOfArg) == true {
+		printStr("I have an even number of arguments")
+	} else {
+		printStr("I have an odd number of arguments")
+	}
+}
+
 func printStr(str string) {
 	arrayStr := []rune(str)
 
@@ -27,21 +43,5 @@ func isEven(nbr int) bool {
 		return true
 	} else {
 		return false
-	}
-}
-
-func main() {
-
-	lengthOfArg := 0
-
-	sentence := os.Args
-	for index := range sentence {
-		lengthOfArg = index
-	}
-
-	if isEven(lengthOfArg) == true {
-		printStr("I have an even number of arguments")
-	} else {
-		printStr("I have an odd number of arguments")
 	}
 }
