@@ -1,6 +1,9 @@
 package piscine
 
-import "github.com/01-edu/z01"
+import (
+	"github.com/01-edu/z01"
+	"os"
+)
 
 func printStr(str string) {
 	arrayStr := []rune(str)
@@ -13,7 +16,7 @@ func printStr(str string) {
 
 	for i := 0; i < lengthOfStr; i++ {
 
-		z01.PrintRune(string(arrayStr[i]))
+		z01.PrintRune(rune(arrayStr[i]))
 
 	}
 	z01.PrintRune('\n')
